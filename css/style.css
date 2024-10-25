@@ -664,9 +664,17 @@ margin-bottom: 8px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    fill: transparent;
 }
 
 .modal-check:checked + .modal-check-text span {
-    background-color: #404BBF;
+    background-color: #404bbf;
     border: none;
+}
+
+.modal-check-icon {
+    fill: #f4f4fd;
 }
