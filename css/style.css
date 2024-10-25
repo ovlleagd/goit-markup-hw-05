@@ -468,13 +468,17 @@ margin-bottom: 8px;
     margin-right: 120px;
 }
 
+.footer-soc {
+    margin-right: 80px;
+}
+
 .footer-soc-item {
     display: flex;
     gap: 16px;
 }
 
 .footer-soc-link {
-    width: 40px; 
+   width: 40px; 
    height: 40px;
    background-color: #4D5AE5;
    border-radius: 50%;
@@ -495,6 +499,23 @@ margin-bottom: 8px;
 
 .footer-soc-icon {
     fill: #f4f4fd;
+}
+.subscribe-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-input {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    margin-right: 24px;
 }
 
 /*--------------modal---------*/
