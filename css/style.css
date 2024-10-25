@@ -542,13 +542,10 @@ margin-bottom: 8px;
     transform: translate(-50%, -50%) scale(1.5);
 }
 
-.modal-open {
+.modal-open-btn {
     position: absolute;
-    right: 24px;
     top: 24px;
+    right: 24px;
     border-radius: 100%;
-    fill:  #e7e9fc;
-    stroke-width: 1px;
-    stroke: rgba(0, 0, 0, 0.1);
-    border: none;
+    border: 1px;
 }
