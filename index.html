@@ -414,7 +414,7 @@
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <div class="backdrop">
      <div class="modal">
       <button type="button" class="modal-open-btn"><svg class="modal-close-btn" width="8" height="8"><use href="./images/icons.svg#icon-close-black"></use>
       </svg>
@@ -459,13 +459,25 @@
           type="checkbox"
           name="policy"
           id="policy"
-          class="modal-check"
+          class="modal-check visually-hidden"
           value="true"
           />
-          <label for="policy" class="modal-check-text"><span><svg class="modal-check-icon" width="10" height="8"><use href="./images/icons.svg#icon-Vector"></use></svg></span>accept the terms and conditions of the Privacy Policy</label>
+          <label 
+          for="policy" 
+          class="modal-check-text"
+          ><span>
+            <svg 
+              class="modal-check-icon" 
+              width="10" 
+              height="8"
+              >
+              <use href="./images/icons.svg#icon-Vector"></use>
+            </svg>
+          </span>
+          accept the terms and conditions of the <a href="" class="Privacy-Policy">Privacy Policy</a></label>
         </div>
 
-        <button type="submit">Send</button>
+        <button type="submit" class="submit-btn">Send</button>
       </form>
      </div>
     </div>
