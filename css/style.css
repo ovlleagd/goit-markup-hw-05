@@ -566,7 +566,12 @@ margin-bottom: 8px;
 }
 
 .footer-subscribe {
-    display: flex; 
+    display: flex;
+    gap: 24px; 
+}
+
+.footer-subscribe-label {
+    
 }
 
 /*--------------modal---------*/
