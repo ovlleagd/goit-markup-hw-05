@@ -703,6 +703,10 @@ margin-bottom: 8px;
     margin-bottom: 4px;
 }
 
+.modal-field-name {
+    margin-bottom: 8px;
+}
+
 .modal-field {
     margin-bottom: 16px;    
 }
