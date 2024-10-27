@@ -704,9 +704,12 @@ margin-bottom: 8px;
 }
 
 .modal-field {
-    margin-bottom: 8px;    
+    margin-bottom: 16px;    
 }
 
+.modal-field-checkbox {
+    margin-bottom: 24px;
+}
 
 
 .input-wrapper {
