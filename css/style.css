@@ -512,26 +512,34 @@ margin-bottom: 8px;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #fff;
+    color: #ffffff;
     margin-bottom: 16px;
+    margin-left: 24px;
 }
 
 .footer-input {
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
     margin-right: 24px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    
 }
 
 .footer-submit-btn {
-    font-family: inherit;
+    font-family: "Roboto" sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff; 
+    color: #ffffff; 
     cursor: pointer;
     background-color: #4D5AE5;
     display: block;
@@ -543,8 +551,8 @@ margin-bottom: 8px;
     padding: 8px 24px;
     display: flex;
     align-items: center;
-    justify-items: center;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     gap: 16px;
     
@@ -563,6 +571,7 @@ margin-bottom: 8px;
     width: 24px;
     height: 24px;
     margin-top: 8px;
+    margin-left: 16px;
 }
 
 .footer-subscribe {
@@ -571,8 +580,11 @@ margin-bottom: 8px;
 }
 
 .footer-subscribe-label {
-    
+
 }
+
+
+
 
 /*--------------modal---------*/
 
